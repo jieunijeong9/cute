@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloWorld {
     @GetMapping("/loveme")
-    public String love(){
+    public String love() {
         return "loveya";
     }
 
@@ -14,4 +14,5 @@ public class HelloWorld {
     public String hate(){
         return "hateya";
     }
+
 }
